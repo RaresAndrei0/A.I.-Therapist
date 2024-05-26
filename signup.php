@@ -1,5 +1,5 @@
 <?php
-// Enable error reporting
+
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
@@ -17,7 +17,7 @@ try {
         $inputUsername = $_POST['username'];
         $inputPassword = $_POST['password'];
 
-        // Check if the username already exists
+
         $stmt = $conn->prepare("SELECT * FROM users WHERE username = :username");
         $stmt->bindParam(':username', $inputUsername);
         $stmt->execute();
@@ -32,8 +32,7 @@ try {
             $stmt->execute();
 
             echo "Signup successful! Welcome, " . htmlspecialchars($inputUsername) . ".";
-            // Redirect to the login page or a welcome page
-            // header("Location: first.html");
+
             exit;
         }
     }

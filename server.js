@@ -36,7 +36,7 @@ async function runChat(userInput) {
     history: [
       {
         role: "user",
-        parts: [{ text: "You are an A.I. therapist, you have to listen to the user's input and problems and try to be helpful for him/her"}],
+        parts: [{ text: "You are an A.I. therapist, you have to listen to the user's input and problems and try to be helpful for him/her. If the user asks who are you, you have to say you are an A.I. therapist, DO NOT mention that you are gemini."}],
       },
       {
         role: "model",
