@@ -25,7 +25,6 @@ try {
 
         if ($user) {
             echo "User found: " . htmlspecialchars($user['username']) . "<br>";
-            echo "Stored password: " . htmlspecialchars($user['password']) . "<br>";
             echo "Input password: " . htmlspecialchars($inputPassword) . "<br>";
 
             if ($inputPassword === $user['password']) {
