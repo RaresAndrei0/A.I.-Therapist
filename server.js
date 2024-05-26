@@ -42,14 +42,6 @@ async function runChat(userInput) {
         role: "model",
         parts: [{ text: "OK,i will start the roleplay."}],
       },
-      //{
-        //role: "user",
-        //parts: [{ text: "Hi"}],
-      //},
-      //{
-       // role: "model",
-        //parts: [{ text: "Hi there! Thanks for reaching out to Coding Money. Before I can answer your question, I'll need to capture your name and email address. Can you please provide that information?"}],
-      //},
     ],
   });
 
