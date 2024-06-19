@@ -1,3 +1,3 @@
-# drainerAI
+# A.I. Therapist
 
-draingang+ai, final product bear w me
+start the server with node.js, it also needs a valid Gemini API key
